@@ -7,14 +7,16 @@ public class HelloWorldBroken
     boolean isThisTheRealWorld = true;
     
     while(isThisTheRealWorld)
-    {
+    { 
       System.out.print("Hello World! ");
       ++count;
+      
       if(count == leet)
       {
         System.out.println("Bye World!");
         break;
       }
+      
     }
   }
 }
